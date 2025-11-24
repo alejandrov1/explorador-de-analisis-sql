@@ -1,0 +1,5 @@
+{
+  "name": "Explorador de Linaje SQL",
+  "description": "Una herramienta intuitiva para introspeccionar objetos de base de datos. Pega código SQL para analizar esquemas, ver dependencias y entender el linaje de datos con el poder de la IA.",
+  "requestFramePermissions": []
+}

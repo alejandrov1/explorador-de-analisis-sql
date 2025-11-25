@@ -1,4 +1,9 @@
-# Logs
+# --- Dependencias (IMPORTANTE: Manten node_modules ignorado) ---
+node_modules/
+dist/
+release/
+
+# --- Logs y Debug ---
 logs
 *.log
 npm-debug.log*
@@ -7,14 +12,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-release/
-dist/
-dist
-dist-ssr
-*.local
+# --- Entornos Locales (Nunca subir claves privadas) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Editor directories and files
+# --- IDEs y Editores ---
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -24,3 +29,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- Angular y Build ---
+.angular/
+.cache/
+dist-ssr
+*.local
